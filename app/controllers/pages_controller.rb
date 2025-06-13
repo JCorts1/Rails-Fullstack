@@ -9,6 +9,6 @@ class PagesController < ApplicationController
   end
 
   def contact
-
+    @members = ["Yana", "Jay", "Jake", "Jill"]
   end
 end
